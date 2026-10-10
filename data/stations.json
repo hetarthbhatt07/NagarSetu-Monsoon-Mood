@@ -1,0 +1,322 @@
+[
+  {
+    "id": "kalupur",
+    "name": "Kalupur Railway Station",
+    "lat": 23.0258,
+    "lng": 72.6015,
+    "note": "Dense old-city hub, underground concourse with heavy pedestrian convergence",
+    "entrances": [
+      {
+        "id": "kalupur-ent-a",
+        "label": "Entrance A (Railway Concourse Main)",
+        "lat": 23.0261,
+        "lng": 72.6012,
+        "elevation_m": 48.2,
+        "elevation_quality": "simulated",
+        "surface": "paved",
+        "low_point_depth_cm": 38,
+        "approach_road": "Station Road Old Bazaar",
+        "has_electrical_room_nearby": true
+      },
+      {
+        "id": "kalupur-ent-b",
+        "label": "Entrance B (Sarangpur Gate Side)",
+        "lat": 23.0254,
+        "lng": 72.6021,
+        "elevation_m": 48.9,
+        "elevation_quality": "simulated",
+        "surface": "mixed",
+        "low_point_depth_cm": 29,
+        "approach_road": "Sarangpur Overbridge Ramp",
+        "has_electrical_room_nearby": false
+      },
+      {
+        "id": "kalupur-ent-c",
+        "label": "Entrance C (BRTS Transit Plaza)",
+        "lat": 23.0259,
+        "lng": 72.6006,
+        "elevation_m": 49.6,
+        "elevation_quality": "simulated",
+        "surface": "paved",
+        "low_point_depth_cm": 15,
+        "approach_road": "BRTS Feeder Corridor",
+        "has_electrical_room_nearby": false
+      }
+    ],
+    "drainage": {
+      "capacity_index": 0.35,
+      "blockage_risk": 0.75,
+      "quality": "simulated"
+    },
+    "history": {
+      "known_waterlogging_points": 3,
+      "last_event_note": "Monsoon 2024: 35cm inundation at main concourse approach during 45mm/h downpour",
+      "quality": "simulated"
+    },
+    "parking": {
+      "present": true,
+      "low_lying": true
+    },
+    "assets": {
+      "electrical_room": "Sub-surface Ancillary Room B2-North",
+      "pump_candidate_points": [
+        {
+          "id": "pump-k-1",
+          "label": "Pump Point P1 (Main Sump Depr. Ent A)",
+          "lat": 23.0262,
+          "lng": 72.6011
+        },
+        {
+          "id": "pump-k-2",
+          "label": "Pump Point P2 (Sarangpur Ramp Gutter)",
+          "lat": 23.0253,
+          "lng": 72.6023
+        }
+      ]
+    }
+  },
+  {
+    "id": "sabarmati",
+    "name": "Sabarmati (Riverfront Side)",
+    "lat": 23.0850,
+    "lng": 72.5850,
+    "note": "Riverfront embankment flank, natural depression zone with siltation risk",
+    "entrances": [
+      {
+        "id": "sabarmati-ent-a",
+        "label": "Entrance A (Promenade Lower Descent)",
+        "lat": 23.0853,
+        "lng": 72.5844,
+        "elevation_m": 46.8,
+        "elevation_quality": "simulated",
+        "surface": "paved",
+        "low_point_depth_cm": 35,
+        "approach_road": "Riverfront West Ring",
+        "has_electrical_room_nearby": true
+      },
+      {
+        "id": "sabarmati-ent-b",
+        "label": "Entrance B (Dharmanagar Road Gate)",
+        "lat": 23.0847,
+        "lng": 72.5857,
+        "elevation_m": 48.4,
+        "elevation_quality": "simulated",
+        "surface": "mixed",
+        "low_point_depth_cm": 24,
+        "approach_road": "Dharmanagar Approach Lane",
+        "has_electrical_room_nearby": false
+      }
+    ],
+    "drainage": {
+      "capacity_index": 0.40,
+      "blockage_risk": 0.68,
+      "quality": "simulated"
+    },
+    "history": {
+      "known_waterlogging_points": 2,
+      "last_event_note": "Monsoon 2023: River backflow surge slowed storm outfalls at promenade level",
+      "quality": "simulated"
+    },
+    "parking": {
+      "present": true,
+      "low_lying": true
+    },
+    "assets": {
+      "electrical_room": "Ground Tier Transformer Enclosure G-01",
+      "pump_candidate_points": [
+        {
+          "id": "pump-s-1",
+          "label": "Pump Point P1 (Promenade Storm Basin)",
+          "lat": 23.0855,
+          "lng": 72.5842
+        },
+        {
+          "id": "pump-s-2",
+          "label": "Pump Point P2 (Dharmanagar Culvert Box)",
+          "lat": 23.0845,
+          "lng": 72.5860
+        }
+      ]
+    }
+  },
+  {
+    "id": "vastral",
+    "name": "Vastral Gam",
+    "lat": 23.0190,
+    "lng": 72.6670,
+    "note": "East terminal elevated station adjacent to depot spur and ring road arterial",
+    "entrances": [
+      {
+        "id": "vastral-ent-a",
+        "label": "Entrance A (Ring Road Southbound)",
+        "lat": 23.0194,
+        "lng": 72.6666,
+        "elevation_m": 53.5,
+        "elevation_quality": "simulated",
+        "surface": "paved",
+        "low_point_depth_cm": 12,
+        "approach_road": "SP Ring Road Flyover Service Rd",
+        "has_electrical_room_nearby": false
+      },
+      {
+        "id": "vastral-ent-b",
+        "label": "Entrance B (Depot Access Gate)",
+        "lat": 23.0186,
+        "lng": 72.6675,
+        "elevation_m": 52.8,
+        "elevation_quality": "simulated",
+        "surface": "unpaved",
+        "low_point_depth_cm": 18,
+        "approach_road": "Depot Feeder Track Lane",
+        "has_electrical_room_nearby": true
+      }
+    ],
+    "drainage": {
+      "capacity_index": 0.70,
+      "blockage_risk": 0.30,
+      "quality": "simulated"
+    },
+    "history": {
+      "known_waterlogging_points": 1,
+      "last_event_note": "Monsoon 2024: Minor pooling at depot gate during construction activity",
+      "quality": "simulated"
+    },
+    "parking": {
+      "present": true,
+      "low_lying": false
+    },
+    "assets": {
+      "electrical_room": "Viaduct Under-deck Technical Unit",
+      "pump_candidate_points": [
+        {
+          "id": "pump-v-1",
+          "label": "Pump Point P1 (Depot Apron Ditch)",
+          "lat": 23.0184,
+          "lng": 72.6677
+        }
+      ]
+    }
+  },
+  {
+    "id": "thaltej",
+    "name": "Thaltej Gam",
+    "lat": 23.0590,
+    "lng": 72.5070,
+    "note": "West corridor elevated station over dense commercial highway section",
+    "entrances": [
+      {
+        "id": "thaltej-ent-a",
+        "label": "Entrance A (SG Highway Junction Side)",
+        "lat": 23.0594,
+        "lng": 72.5065,
+        "elevation_m": 55.2,
+        "elevation_quality": "simulated",
+        "surface": "paved",
+        "low_point_depth_cm": 14,
+        "approach_road": "SG Highway Service North",
+        "has_electrical_room_nearby": false
+      },
+      {
+        "id": "thaltej-ent-b",
+        "label": "Entrance B (Thaltej Village Crossroad)",
+        "lat": 23.0585,
+        "lng": 72.5076,
+        "elevation_m": 54.7,
+        "elevation_quality": "simulated",
+        "surface": "mixed",
+        "low_point_depth_cm": 20,
+        "approach_road": "Gam Main Market Street",
+        "has_electrical_room_nearby": false
+      }
+    ],
+    "drainage": {
+      "capacity_index": 0.65,
+      "blockage_risk": 0.35,
+      "quality": "simulated"
+    },
+    "history": {
+      "known_waterlogging_points": 1,
+      "last_event_note": "Monsoon 2023: Moderate runoff near market curb drain",
+      "quality": "simulated"
+    },
+    "parking": {
+      "present": false,
+      "low_lying": false
+    },
+    "assets": {
+      "electrical_room": "Mezzanine Control Center MC-1",
+      "pump_candidate_points": [
+        {
+          "id": "pump-t-1",
+          "label": "Pump Point P1 (Market Cross Culvert)",
+          "lat": 23.0583,
+          "lng": 72.5078
+        }
+      ]
+    }
+  },
+  {
+    "id": "motera",
+    "name": "Motera Stadium",
+    "lat": 23.0916,
+    "lng": 72.5970,
+    "note": "High-capacity event transit station with massive concourse plazas and open aprons",
+    "entrances": [
+      {
+        "id": "motera-ent-a",
+        "label": "Entrance A (Stadium Grand Ramp North)",
+        "lat": 23.0921,
+        "lng": 72.5964,
+        "elevation_m": 50.8,
+        "elevation_quality": "simulated",
+        "surface": "paved",
+        "low_point_depth_cm": 22,
+        "approach_road": "Narendra Modi Stadium Boulevard",
+        "has_electrical_room_nearby": true
+      },
+      {
+        "id": "motera-ent-b",
+        "label": "Entrance B (Koteshwar Link Pedestrian Way)",
+        "lat": 23.0911,
+        "lng": 72.5977,
+        "elevation_m": 50.1,
+        "elevation_quality": "simulated",
+        "surface": "mixed",
+        "low_point_depth_cm": 28,
+        "approach_road": "Koteshwar Village Road",
+        "has_electrical_room_nearby": false
+      }
+    ],
+    "drainage": {
+      "capacity_index": 0.55,
+      "blockage_risk": 0.45,
+      "quality": "simulated"
+    },
+    "history": {
+      "known_waterlogging_points": 1,
+      "last_event_note": "Monsoon 2024: Sudden intense burst slowed plaza egress; crowd management required",
+      "quality": "simulated"
+    },
+    "parking": {
+      "present": true,
+      "low_lying": false
+    },
+    "assets": {
+      "electrical_room": "North Switchgear Vault NW-02",
+      "pump_candidate_points": [
+        {
+          "id": "pump-m-1",
+          "label": "Pump Point P1 (Grand Ramp Sump Chamber)",
+          "lat": 23.0923,
+          "lng": 72.5962
+        },
+        {
+          "id": "pump-m-2",
+          "label": "Pump Point P2 (Koteshwar Link Sump)",
+          "lat": 23.0909,
+          "lng": 72.5979
+        }
+      ]
+    }
+  }
+]

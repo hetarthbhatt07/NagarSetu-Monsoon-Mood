@@ -1,0 +1,18 @@
+{
+  "rain_intensity_mm_per_h": {
+    "watch": 10,
+    "alert": 25,
+    "severe": 50
+  },
+  "rain_24h_mm": {
+    "watch": 50,
+    "alert": 100,
+    "severe": 150
+  },
+  "risk_bands": {
+    "low": [0, 35],
+    "medium": [35, 65],
+    "high": [65, 100]
+  },
+  "disclaimer": "Illustrative thresholds. Replace with operator/IMD-approved values."
+}
